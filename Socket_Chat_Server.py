@@ -1,8 +1,8 @@
 import socket
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #建立Socket
-Host_IP='127.0.0.1' #主機IP
-Host_Port=12345 #主機Port
+Host_IP = '127.0.0.1' #主機IP
+Host_Port = 12345 #主機Port
 sock.bind((Host_IP,Host_Port)) #綁定IP與Port
 sock.listen(5) #監聽
 
